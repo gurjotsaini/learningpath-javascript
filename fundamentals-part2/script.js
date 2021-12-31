@@ -111,8 +111,10 @@ console.log(years);
 console.log(years.length);
 console.log(years[years.length - 1]);
 
-// Exercise
+// Exercise ( Array map() )
 const calcAge = function (birthYear) {
       return 2022 - birthYear;
 }
-const birthYears = [1991, 1992, 1993, 1994, 1995];
+const birthYears = [1991, 1992, 1993, 1994, 1995, 1996];
+const output = birthYears.map(calcAge);
+console.log(output);
