@@ -101,7 +101,18 @@ checkWinner(scoreDolphins, scoreKoalas);
 **************************************************************/
 const persons = ['p1', 'p2', 'p3'];
 console.log(persons);
-console.log(persons[0]);
+console.log(persons[2]);
+persons[2] = 'p4';
+console.log(persons);
+console.log(persons[2]);
 
 const years = new Array(1991, 1992, 1993, 1994);
 console.log(years);
+console.log(years.length);
+console.log(years[years.length - 1]);
+
+// Exercise
+const calcAge = function (birthYear) {
+      return 2022 - birthYear;
+}
+const birthYears = [1991, 1992, 1993, 1994, 1995];
