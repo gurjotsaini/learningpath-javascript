@@ -82,39 +82,79 @@
 /**************************************************************
 ** Coding Challenge
 **************************************************************/
-const calcAverage = (score1, score2, score3) => (score1, score2, score3) / 3;
-let scoreDolphins = calcAverage(44, 23, 71);
-let scoreKoalas = calcAverage(65, 54, 49);
-const checkWinner = function (avgDolphins, avgKoalas) {
-      if (avgDolphins >= 2 * avgKoalas) {
-            console.log(`Dolphins win! ${avgDolphins} vs. ${avgKoalas}`);
-      } else if (avgKoalas >= 2 * avgDolphins) {
-            console.log(`Koalas win! ${avgKoalas} vs. ${avgDolphins}`);
-      } else {
-            console.log('No team wins');
-      }
-}
-checkWinner(scoreDolphins, scoreKoalas);
+// const calcAverage = (score1, score2, score3) => (score1, score2, score3) / 3;
+// let scoreDolphins = calcAverage(44, 23, 71);
+// let scoreKoalas = calcAverage(65, 54, 49);
+// const checkWinner = function (avgDolphins, avgKoalas) {
+//       if (avgDolphins >= 2 * avgKoalas) {
+//             console.log(`Dolphins win! ${avgDolphins} vs. ${avgKoalas}`);
+//       } else if (avgKoalas >= 2 * avgDolphins) {
+//             console.log(`Koalas win! ${avgKoalas} vs. ${avgDolphins}`);
+//       } else {
+//             console.log('No team wins');
+//       }
+// }
+// checkWinner(scoreDolphins, scoreKoalas);
 
 /**************************************************************
 ** Arrays
 **************************************************************/
-const persons = ['p1', 'p2', 'p3'];
-console.log(persons);
-console.log(persons[2]);
-persons[2] = 'p4';
-console.log(persons);
-console.log(persons[2]);
+// const persons = ['p1', 'p2', 'p3'];
+// console.log(persons);
+// console.log(persons[2]);
+// persons[2] = 'p4';
+// console.log(persons);
+// console.log(persons[2]);
 
-const years = new Array(1991, 1992, 1993, 1994);
-console.log(years);
-console.log(years.length);
-console.log(years[years.length - 1]);
+// const years = new Array(1991, 1992, 1993, 1994);
+// console.log(years);
+// console.log(years.length);
+// console.log(years[years.length - 1]);
 
-// Exercise ( Array map() )
-const calcAge = function (birthYear) {
-      return 2022 - birthYear;
-}
-const birthYears = [1991, 1992, 1993, 1994, 1995, 1996];
-const output = birthYears.map(calcAge);
-console.log(output);
+// // Exercise ( Array map() )
+// const calcAge = function (birthYear) {
+//       return 2022 - birthYear;
+// }
+// const birthYears = [1991, 1992, 1993, 1994, 1995, 1996];
+// const output = birthYears.map(calcAge);
+// console.log(output);
+
+/**************************************************************
+** Array Methods
+**************************************************************/
+// const persons = ['p1', 'p2', 'p3'];
+
+// const newLenght = persons.push('p4');
+// console.log(persons);
+// console.log(newLenght);
+
+// persons.unshift('p5');
+// console.log(persons);
+
+// const popped = persons.pop();
+// console.log(persons);
+// console.log(popped);
+
+// persons.shift('p5');
+// console.log(persons);
+
+// console.log(persons.indexOf('p2'));
+
+// console.log(persons.includes('p5'));
+// console.log(persons.includes('p3'));
+
+/**************************************************************
+** Coding Challenge
+**************************************************************/
+// const calcTip = bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+// console.log(bills, tips, totals);
+
+
+/**************************************************************
+** Objects
+**************************************************************/
