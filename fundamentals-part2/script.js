@@ -154,7 +154,71 @@
 
 // console.log(bills, tips, totals);
 
-
 /**************************************************************
 ** Objects
+**************************************************************/
+// const personDetails = {
+//       firstName: 'John',
+//       lastName: 'Doe',
+//       age: 2022-1992,
+//       job: 'Developer',
+//       friends: ['Jane', 'Jospeh', 'Jade']
+// };
+// console.log(personDetails);
+
+// console.log(personDetails.lastName);
+// console.log(personDetails['lastName']);
+
+// const nameKey = 'Name';
+// console.log(personDetails['first' + nameKey]);
+// console.log(personDetails['last' + nameKey]);
+
+// const interestedIn = prompt('What do you want to know?');
+// if (personDetails[interestedIn]) {
+//       console.log(personDetails[interestedIn]);
+// } else {
+//       console.log('Wrong request!');
+// }
+// personDetails.location = 'Earth';
+// personDetails['socialMedia'] = 'Yes';
+// console.log(personDetails);
+// console.log(personDetails.friends.length);
+
+// console.log(`${personDetails.firstName} has ${personDetails.friends.length} friends, and his best friends is ${personDetails.friends[0]}`);
+
+/**************************************************************
+** Object Methods
+**************************************************************/
+// const personDetails = {
+//       firstName: 'John',
+//       lastName: 'Doe',
+//       birthYear: 1992,
+//       job: 'Developer',
+//       friends: ['Jane', 'Jospeh', 'Jade'],
+//       hasDriversLicense: false,
+//       // calcAge: function (birthYear) {
+//       //       return 2022 - birthYear
+//       // }
+//       // calcAge: function () {
+//       //       console.log(this);
+//       //       return 2022 - this.birthYear
+//       // }
+//       calcAge: function () {
+//             this.age = 2022 - this.birthYear;
+//             return this.age;
+//       },
+//       getSummary: function () {
+//             return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he ${this.hasDriversLicense ? 'have a DL' : 'does not have a DL'}.`;
+//       }
+// };
+// console.log(personDetails.calcAge());
+// console.log(personDetails);
+// console.log(personDetails.age);
+// // console.log(personDetails.calcAge(personDetails.birthYear));
+// // console.log(personDetails['calcAge'](personDetails.birthYear));
+
+// console.log(personDetails.getSummary());
+
+/**************************************************************
+** For Loop
 **************************************************************/
