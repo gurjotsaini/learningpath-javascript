@@ -218,7 +218,3 @@
 // // console.log(personDetails['calcAge'](personDetails.birthYear));
 
 // console.log(personDetails.getSummary());
-
-/**************************************************************
-** For Loop
-**************************************************************/
